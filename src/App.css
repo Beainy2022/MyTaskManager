@@ -1,0 +1,48 @@
+
+
+body{
+  background-image: url('images/taskmngrbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  place-items: center;
+  align-items: center;
+  background-attachment: fixed;
+  
+}
+
+
+
+
+.container{
+  border:7px solid black;
+  background-color: rgba(255, 255, 255, 0.363);
+  margin-top: 2%;
+  border-radius: 2px;
+
+}
+
+ul{
+  background-color: black;
+}
+/* Customize background color of tabs */
+
+
+.nav-pills .nav-link {
+  background-color: black;
+  color: white; /* Change text color to ensure visibility */
+}
+
+.nav-pills .nav-link:hover {
+  background-color: white /* Darker shade of black */
+}
+
+.tab-content .button{
+  margin-bottom: 10px;
+}
+
+.table1{
+  
+  overflow: scroll;
+}
